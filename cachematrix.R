@@ -33,4 +33,5 @@ cacheSolve = function(x) {
     setm = function(inverse)
       m <<-inverse
 }
-
+makeCacheMatrix(2)
+cacheSolve(2)
